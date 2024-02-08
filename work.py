@@ -3,7 +3,7 @@ import os
 from langchain.llms import Ollama
 ollama_oppenhermes = Ollama(model="openhermes")
 
-researcher = A
+researcher = Agent(
     role = 'Researcher',
     goal = 'develop ideas for teaching someone new to the subject',
     backstory = 'you are an ai research assistant',
